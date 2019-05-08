@@ -1,7 +1,8 @@
-###运行命令
-- jest   //单次运行
-- jest --watch  //jest --watch  检测运行
+### 运行命令
+- yarn jest   //单次运行
+- yarn watch检测运行
 - jest -u   //快照覆盖
+- yarn jestInit 初始化jest 配置 
 
 
 #### 匹配
