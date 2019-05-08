@@ -1,0 +1,26 @@
+{
+  "name": "utilCode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/NewPrototype/util.git",
+  "author": "liujunxiong <heicao.ljx@raycloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "jest --watchAll ",
+    "jest": "jest --cache  --passWithNoTests    ",
+    "reset": "jest -u",
+    "jestInit": "jest --init"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.12",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-jest": "^24.8.0"
+  }
+}
